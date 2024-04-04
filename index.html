@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>İpek Nur Yurttaş</title>
+        <meta charset="UTF-8" lang="tr">
+        <link rel="icon" type="image/x-icon" href="logo.webp">
+        <link rel="stylesheet" href="site.css">
+    </head>
+    <body>
+        <div id="sag_taraf">
+            <h5>İPEK NUR YURTTAŞ | YAZILIM MÜHENDİSİ</h5>
+            <img src="foto.jpg" alt="foto">
+        </div>
+        <div id="sol_taraf">
+            <a id="baslık" href="blog.html">Özgeçmiş</a>
+            <a id="yazı1" class="yazı" href="#bölüm1">Hakkımda</a>
+            <a id="yazı2" class="yazı" href="#bölüm2">Çalışmalarım</a>
+            <a id="yazı3" class="yazı" href="#bölüm3">İletişim</a>
+            <h1>İpek Nur Yurttaş</h1>
+            <p id="meslek">Yazılım Mühendisi</p>
+            <div id="bilgi">
+                <p><b>Telefon</b> (+90) 553 846 98 43</p>
+                <p><b>E-posta</b> ipeknryurt86@gmail.com</p>
+                <p><b>Adres</b> Sincan, Ankara</p> 
+            </div>
+            <div id="medya">
+                <a href="https://www.linkedin.com/in/ipek-nur-yurtta%C5%9F-a1a263287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin • </a>
+                <a href="https://github.com/Ipekyurttas">Github • </a>
+                <a href="https://www.instagram.com/coder.yoda/">Instagram</a>
+            </div>
+            <p id="özgeçmiş">Özgeçmişi Göster ↓</p>
+            <div id="bölüm1">
+                <p class="baslık2">HAKKIMDA  ────────────────</p>
+                <p class="açıklama" id="açıklama1">• Merhaba , Ben yazılım mühendisi adayıyım ve <br> şu anda yazılım mühendisliği 2.sınıf öğrencisiyim.<br> Front-end , back-end ve oyun geliştirme konularında <br>bilgi sahibiyim.İyi bir back-end developer <br> olmak için projeler yapıyor ve yeni teknolojileri<br> takip ediyorum.</p>
+            </div>
+            <div id="bölüm2">
+                <p class="baslık2">ÇALIŞMALARIM ────────────────</p>
+                <p class="açıklama" id="açıklama2">• <b>Front-end :</b> Web geliştirme için gerekli olan  web<br> dillerden HTML , CSS , JAVASCRİCPT kullanarak <br> çalışmalarda bulundum.</p>
+                <p class="açıklama" id="açıklama">• <b>Back-end : </b> Web geliştirmenin arka yüzünü geliştirmek <br>için kullanılan dillerden JAVA , PYTHON VE C# dillerini<br>kullanarak çalışmalarda bulundum. </p>
+                <p class="açıklama" id="açıklama">• Kendimi geliştirmek için farklı alanlarda araştırmalar yapıp<br> yeni bilgiler öğreniyorum.Bunlar arasında oyun geliştirmek <br>ve siber güvenlik bulunuyor.</p>
+                <p class="baslık2" id="beceri">BECERİLERİM ──────────────── </p>
+                <p class="dil">HTML</p>
+                <progress min="0" max="100" value="80" class="yüzde"></progress>
+                <p class="dil">CSS</p>
+                <progress min="0" max="100" value="75" class="yüzde"></progress>
+                <p class="dil">JAVA</p>
+                <progress min="0" max="100" value="85" class="yüzde"></progress>
+                <p class="dil">C</p>
+                <progress min="0" max="100" value="65" class="yüzde"></progress>
+                <p class="dil">PYTHON</p>
+                <progress min="0" max="100" value="40" class="yüzde"></progress>
+                <p class="dil">JAVASCRİCPT</p>
+                <progress min="0" max="100" value="25" class="yüzde"></progress>
+                <p class="dil">C#</p>
+                <progress min="0" max="100" value="10" class="yüzde"></progress>
+                <p class="baslık2" id="eğitim">EĞİTİM ─────────────────────</p>
+                <p id="yıl" class="okul"><b>2022 - 2026</b></p>
+                <p class="okul"><b>İnönü Üniversitesi</b></p>
+                <p class="sehir">Lisans , Yazılım Mühendisliği Bölümü</p>
+                <p class="sehir">Malatya</p>
+            </div>
+            <div id="bölüm3">
+                <p class="baslık2">İLETİŞİM ──────────────────</p>
+                <p class="not" id="telefon"><b>Telefon</b> (+90) 553 846 98 43</p>
+                <p class="not"><b>E-posta</b> ipeknryurt86@gmail.com</p>
+                <p class="not"><b>Adres</b> Sincan, Ankara</p>
+                <div id="bölüm4">
+                   <a class="sosyal" href="https://www.linkedin.com/in/ipek-nur-yurtta%C5%9F-a1a263287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">• Linkedin <br> </a>
+                   <br>
+                   <a class="sosyal" href="https://github.com/Ipekyurttas"> • Github <br> </a>
+                   <br>
+                   <a class="sosyal" href="https://www.instagram.com/coder.yoda/"> • Instagram</a> 
+                </div>
+            </div>
+            <div id="bölüm5"></div>
+            </div>
+            <script>
+                document.getElementById("yazı1").addEventListener("click",function() {
+                    document.getElementById("bölüm1").scrollIntoView({behavior:'smooth'});
+                });
+                document.getElementById("yazı2").addEventListener("click",function() {
+                    document.getElementById("bölüm2").scrollIntoView({behavior:'smooth'});
+                });
+                document.getElementById("yazı3").addEventListener("click",function() {
+                    document.getElementById("bölüm3").scrollIntoView({behavior:'smooth'});
+                });
+            </script>
+    </body>
+</html>
